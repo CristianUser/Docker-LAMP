@@ -1,3 +1,4 @@
 dump/*
 www/*
 sessions/*
+.DS_Store
