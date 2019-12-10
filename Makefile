@@ -1,12 +1,12 @@
 start:
-	docker-compose up -d www db phpmyadmin
+	docker-compose up -d web db phpmyadmin
 
 stop-services:
-	docker-compose stop www db phpmyadmin
+	docker-compose stop web db phpmyadmin
 
 remove-containers:
 	@echo "Removing all stopped containers..."
-	docker-compose rm www db phpmyadmin
+	docker-compose rm web db phpmyadmin
 
 burn:
 	@echo "Stopping and removing all containers..."

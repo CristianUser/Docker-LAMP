@@ -1,7 +1,7 @@
 ###Docker compose `LAMP` preset
 
 ##Directory structure
-
+```bash
 .
 ├── docker-compose.yml
 ├── Dockerfile
@@ -10,4 +10,5 @@
 ├── sessions
 └── www
     └── index.php
+```
 
